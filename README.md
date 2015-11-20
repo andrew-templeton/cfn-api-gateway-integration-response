@@ -27,7 +27,7 @@ This Lambda makes use of the Lambda-Backed CloudFormation Custom Resource flow m
         "StatusCode": "200",       // REQUIRED String of Status Code for this method response.
         "RestApiId": "abcdefghij", // REQUIRED 10 char alphanum String ID for RestApi 
         "HttpMethod": "GET",       // REQUIRED enum DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
-        "ResourceId": "zyxwvutsrq", // REQUIRED 10 char alphanum String ID for Resource,
+        "ResourceId": "zyxwvutsrq", // REQUIRED alphanum ID for API Resource,
         "SelectionPattern": ".*",   // Regex to match for this code
         "ResponseTemplates": {            // Optional hash of key: value pairs, 
           "application/json": "Some VTL"  //   key being a valid Content-Type,
