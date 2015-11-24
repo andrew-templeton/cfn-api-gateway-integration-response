@@ -30,5 +30,6 @@ exports.handler = CfnLambda({
   Create: Upsert,
   Update: Upsert,
   Delete: Delete,
+  NoUpdate: Upsert,
   SchemaPath: [__dirname, 'schema.json']
 });
