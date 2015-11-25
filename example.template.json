@@ -4,7 +4,7 @@
   "Parameters": {
     "RestApiCustomResourceLambdaName": {
       "Type": "String",
-      "Default": "cfn-api-gateway-restapi-0-4-1",
+      "Default": "cfn-api-gateway-restapi-0-5-0",
       "Description": "The name of the ApiGatewayRestApi Lambda you deployed to test this stack."
     },
     "RestApiName": {
@@ -74,7 +74,7 @@
     },
     "IntegrationResponseCustomResourceLambdaName": {
       "Type": "String",
-      "Default": "cfn-api-gateway-integration-response-0-1-2",
+      "Default": "cfn-api-gateway-integration-response-0-2-0",
       "Description": "The name of the ApiGatewayIntegrationResponse Lambda you deployed to test this stack."
     }
   },
