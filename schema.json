@@ -49,7 +49,7 @@
       "patternProperties": {
         "^method\\.response\\.header\\..+$": {
           "type": "string",
-          "pattern": "^(integration\\.response\\.header\\..)|('.*')+$"
+          "pattern": "^(integration\\.response\\.header\\..)|(integration\\.response\\.body\\..)|('.*')+$"
         }
       },
       "additionalProperties": false
