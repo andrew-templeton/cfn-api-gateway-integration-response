@@ -1,11 +1,11 @@
 {
   "name": "cfn-api-gateway-integration-response",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Custom::ApiGatewayIntegrationResponse | AWS CloudFormation Custom Lambda Resource | API Gateway IntegrationResponse",
   "main": "index.js",
   "scripts": {
     "test": "node ./node_modules/istanbul/lib/cli cover ./node_modules/mocha/bin/_mocha",
-    "cfn-lambda-deploy": "chmod +x ./node_modules/cfn-lambda/deploy.sh && ./node_modules/cfn-lambda/deploy.sh;"
+    "cfn-lambda-deploy": "node ./node_modules/cfn-lambda/deploy.js"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,6 @@
   },
   "homepage": "https://github.com/andrew-templeton/cfn-api-gateway-integration-response#readme",
   "dependencies": {
-    "cfn-lambda": "0.8.0"
+    "cfn-lambda": "0.8.3"
   }
 }
